@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<list>
+	<header>Список скиллов</header>
+	<skills>Знание базовой теории</skills>
+	<skills>Умение тестировать API через Postman</skills>
+	<skills>Мобильное тестирование</skills>
+</list>
+
+
