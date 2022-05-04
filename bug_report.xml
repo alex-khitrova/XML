@@ -1,1 +1,13 @@
-
+ <?xml version="1.0" encoding="UTF-8" ?>
+<report>
+ <ID>ID:000-001</ID>
+ <summary>Summary: Ссылка в футере на главной странице, направлет на ошибочную   страницу.</summary>
+ <severity>Severity: Minor</severity>
+ <environment>Test environment: Google Chrome 101.0.4951.41</environment>
+ <steps>Steps to Reproduce: 1.Открыть сайт<steps/>
+ <homepage xlink:type="simple"xlink:href="https://www.wildberries.ru/"></homepage>
+ <steps>2.Прокрутить до самой нижней части сайта(footer) 3.Нажать ЗОЖ и   спорт<steps/>
+ <result>Result: На открывшейся странице отображается результат поиска &quotничего  не найдено&quot на странице</result>
+ <homepage xlink:type="simple"   xlink:href="https://guru.wildberries.ru/"></homepage>
+ <expected>Expected Result: На открывшейся странице расположена главная страница   проекта ЗОЖ и спорт.</expected>
+</report>
